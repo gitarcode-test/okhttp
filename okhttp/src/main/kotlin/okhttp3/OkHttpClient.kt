@@ -18,11 +18,9 @@ package okhttp3
 import android.annotation.SuppressLint
 import java.net.Proxy
 import java.net.ProxySelector
-import java.net.Socket
 import java.time.Duration
 import java.util.Collections
 import java.util.Random
-import java.util.concurrent.ExecutorService
 import java.util.concurrent.TimeUnit
 import java.util.concurrent.TimeUnit.MILLISECONDS
 import javax.net.SocketFactory
@@ -44,8 +42,6 @@ import okhttp3.internal.tls.CertificateChainCleaner
 import okhttp3.internal.tls.OkHostnameVerifier
 import okhttp3.internal.toImmutableList
 import okhttp3.internal.ws.RealWebSocket
-import okio.Sink
-import okio.Source
 import org.codehaus.mojo.animal_sniffer.IgnoreJRERequirement
 
 /**
