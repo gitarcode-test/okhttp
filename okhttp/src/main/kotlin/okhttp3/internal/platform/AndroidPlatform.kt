@@ -35,7 +35,6 @@ import okhttp3.internal.platform.android.BouncyCastleSocketAdapter
 import okhttp3.internal.platform.android.ConscryptSocketAdapter
 import okhttp3.internal.platform.android.DeferredSocketAdapter
 import okhttp3.internal.platform.android.StandardAndroidSocketAdapter
-import okhttp3.internal.tls.BasicTrustRootIndex
 import okhttp3.internal.tls.CertificateChainCleaner
 import okhttp3.internal.tls.TrustRootIndex
 
