@@ -1,7 +1,6 @@
 @file:SuppressLint("OldTargetApi")
 
 import android.annotation.SuppressLint
-import com.vanniktech.maven.publish.JavadocJar
 
 plugins {
   id("com.android.library")
