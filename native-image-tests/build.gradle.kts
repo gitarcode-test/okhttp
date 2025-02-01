@@ -1,5 +1,3 @@
-import org.apache.tools.ant.taskdefs.condition.Os
-
 plugins {
   id("com.palantir.graal")
   kotlin("jvm")
