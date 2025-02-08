@@ -14,8 +14,6 @@
  * limitations under the License.
  */
 package okhttp3.recipes;
-
-import java.net.InetAddress;
 import okhttp3.Call;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
